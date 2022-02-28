@@ -1,0 +1,27 @@
+﻿@using NewBookApp.Models;
+@model Movie;
+@{
+    ViewData["Title"] = "Movie Details";
+}
+<div class="row justify-content-center">
+    <div class="col-12 py-3 text-center">
+        <h3>Movie Details Are Here</h3>
+    </div>
+    <div class="col-8">
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr class="text-center">
+                    <th width=10% scope="col"> @Html.DisplayNameFor(model => model.Id)</th>
+                    <th width=30% scope="col"> @Html.DisplayNameFor(model => model.Name)</th>
+                    <th width=40% scope="col"> @Html.DisplayNameFor(model => model.Rating)</th>
+                </tr>
+                <tr class="text-center">
+                    <td width=10% scope="col"> @Model.Id</td>
+                    <td width=30% scope="col"> @Model.Name</td>
+                    <td width=40% scope="col"> @Model.Rating</td>
+                </tr>
+            </thead>
+        </table>
+        <a class="btn btn-info" asp-route="getallmovies">Go Back</a>
+    </div>
+</div>

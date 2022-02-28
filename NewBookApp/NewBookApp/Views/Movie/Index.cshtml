@@ -1,0 +1,40 @@
+﻿@model IEnumerable<NewBookApp.Models.Movie>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="row mx-2 justify-content-center text-center">
+    <div class="com-md-12">
+        <h3>Movie Details</h3>
+    </div>
+    <div class="col-md-8">
+        <table class="table table-striped table-hover table-bordered">
+            <thead>
+                <tr class="text-center">
+                    <th width=10% scope="col"> @Html.DisplayNameFor(model => model.Id)</th>
+                    <th width=30% scope="col"> @Html.DisplayNameFor(model => model.Name)</th>
+                    <th width=20% scope="col"> @Html.DisplayNameFor(model => model.Rating)</th>
+                    <th width=40% scope="col"> Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="text-center">
+                        <td class="py-2" width=10%>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td class="py-2" width=30%>@Html.DisplayFor(modelItem => item.Name)</td>
+                        <td class="py-2" width=20%>@Html.DisplayFor(modelItem => item.Rating)</td>
+                        <td class="py-2" width=40%>
+                            <a class="btn btn-primary" asp-route="getmoviebyid" asp-route-id=@item.Id>View</a>
+                            <a class="btn btn-danger" asp-route="deletemoviebyid" asp-route-id=@item.Id>Delete</a>
+                            <a class="btn btn-warning" asp-route="editmoviebyid" asp-route-id=@item.Id>Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <a class="btn btn-success" asp-route="addmovie">Add New Movie</a>
+    </div>
+    <div class="col-md-6">
+    </div>
+</div>

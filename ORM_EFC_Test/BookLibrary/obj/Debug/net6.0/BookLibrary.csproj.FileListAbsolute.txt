@@ -1,0 +1,14 @@
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\bin\Debug\net6.0\BookLibrary.deps.json
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\bin\Debug\net6.0\BookLibrary.dll
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\bin\Debug\net6.0\ref\BookLibrary.dll
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\bin\Debug\net6.0\BookLibrary.pdb
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.csproj.AssemblyReference.cache
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.AssemblyInfoInputs.cache
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.AssemblyInfo.cs
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.csproj.CoreCompileInputs.cache
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.dll
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\ref\BookLibrary.dll
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.pdb
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\bin\Debug\net6.0\BookLibrary.runtimeconfig.json
+E:\DotNet\source\repos\ORM_EFC_Test\BookLibrary\obj\Debug\net6.0\BookLibrary.genruntimeconfig.cache

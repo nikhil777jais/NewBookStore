@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c8b35166-0b80-49a5-91d6-06174a313cf2": {
+      "ProjectGuid": "c8b35166-0b80-49a5-91d6-06174a313cf2",
+      "DisplayName": "ORM_EFC_Test",
+      "ColorIndex": 0
+    },
+    "8b638f5c-1392-43e9-a17c-2b0d1ac60664": {
+      "ProjectGuid": "8b638f5c-1392-43e9-a17c-2b0d1ac60664",
+      "DisplayName": "BookLibrary",
+      "ColorIndex": 1
+    },
+    "167638a7-d2ed-422d-82d9-ac09705d665a": {
+      "ProjectGuid": "167638a7-d2ed-422d-82d9-ac09705d665a",
+      "DisplayName": "BookLibrary",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}
